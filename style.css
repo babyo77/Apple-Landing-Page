@@ -257,9 +257,9 @@ footer p {
 }
 
 #AirpodsPro {
-    background-image: url("assets/www.apple.com/promo_airpods_pro_order__d8xv36p4uwae_medium.jpg");
+    background-image: url("assets/www.apple.com/promo_airpods_pro_order__d8xv36p4uwae_small_2x.jpg");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     height: 38rem;
     width: 46.8rem;
 }
