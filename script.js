@@ -37,7 +37,7 @@ document.querySelector("#div").addEventListener('mouseover',()=>{
 
 if(window.innerWidth <=700) {
     let div = document.createElement('p')
-    div.innerHTML = "View Full on Desktop"
+    div.innerHTML = "View on Desktop"
     div.id = 'custom'
     div.style.color = "black"
     document.body.appendChild(div)
