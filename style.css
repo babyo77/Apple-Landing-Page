@@ -438,9 +438,6 @@ left: 30%;
 }
 
 @media(max-width:600px){
-*{
-    text-align: center;
-}
     #banner4,
 #banner5,
 #banner6{
