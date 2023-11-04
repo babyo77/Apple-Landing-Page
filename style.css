@@ -325,10 +325,10 @@ footer p {
 }
 
 .comein{
-    animation: slidein .9s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+    animation: comein .9s cubic-bezier(0.42, 0, 0.58, 1) forwards;
 }
 
-@keyframes slidein {
+@keyframes comein {
     0% {
         transform: translateY(200%);
     }
