@@ -299,14 +299,14 @@ footer p {
     background-position: center;
     background-size: contain;
     margin-left: 1rem;
-    width: 73rem;
-    height: 40rem;
+    width: 73vw;
+    height: 40vw;
   }
 
   .swiper-slide img {
     display: block;
-    width: 73rem;
-    height: 40rem;
+    width: 73vw;
+    height: 40vw;
   }
 
 #pagination{
