@@ -375,7 +375,7 @@ footer p {
 
 .fade {
     opacity: 0; 
-    transition:.1s;   
+    transition: opacity 1s ease-in-out;   
 }
 
 .swiper-pagination-bullet {
