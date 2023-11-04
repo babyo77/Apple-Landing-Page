@@ -445,6 +445,10 @@ left: 34%;
 }
 
 @media(max-width:600px){
+
+    #banner1{
+        background-image: url(assets/www.apple.com/hero_iphone15pro__i70z9oz3hj2i_small_2x.jpg);
+    }
     #banner4,
 #banner5,
 #banner6{
