@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+</head>
+<body>
+  <div id="store" class="fade" style="z-index: 2; overflow: hidden; display: none; background: #ffffff7d; backdrop-filter: blur(10px); height: 100vh; width: 100vw; position: fixed;">
+    <div  id="s" class="comeup" style="z-index: 4; background-color: #111112; height: 20rem; width: 100vw; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <div style="display: grid; position: relative; row-gap: 1.7rem; left: -24.3%; top: -13%;">
+        <p style="font-weight: 600; font-size: 1.3rem ;">Your Bag is empty.</p>
+        <p style="font-weight: 300; font-size: .7rem;"><a href="">Sign in</a> to see if you have any saved items</p>
+      </div> 
+      </div>
+      <div id="div" style="height: 100vh; width: 100vw;"></div>
+    </div>
+</div>
+    <header>
+        <svg height="40" viewBox="0 0 17 48" width="17" xmlns="http://www.w3.org/2000/svg"><path d="m15.5752 19.0792a4.2055 4.2055 0 0 0 -2.01 3.5376 4.0931 4.0931 0 0 0 2.4908 3.7542 9.7779 9.7779 0 0 1 -1.2755 2.6351c-.7941 1.1431-1.6244 2.2862-2.8878 2.2862s-1.5883-.734-3.0443-.734c-1.42 0-1.9252.7581-3.08.7581s-1.9611-1.0589-2.8876-2.3584a11.3987 11.3987 0 0 1 -1.9373-6.1487c0-3.61 2.3464-5.523 4.6566-5.523 1.2274 0 2.25.8062 3.02.8062.734 0 1.8771-.8543 3.2729-.8543a4.3778 4.3778 0 0 1 3.6822 1.841zm-6.8586-2.0456a1.3865 1.3865 0 0 1 -.2527-.024 1.6557 1.6557 0 0 1 -.0361-.337 4.0341 4.0341 0 0 1 1.0228-2.5148 4.1571 4.1571 0 0 1 2.7314-1.4078 1.7815 1.7815 0 0 1 .0361.373 4.1487 4.1487 0 0 1 -.9867 2.587 3.6039 3.6039 0 0 1 -2.5148 1.3236z" fill="white"></path></svg>
+        <p>Store</p>
+        <p>Mac</p>
+        <p>iPad</p>
+        <p>iPhone</p>
+        <p>Watch</p>
+        <p>Vision</p>
+        <p>AirPods</p>
+        <p>TV & Home</p>
+        <p>Entertainment</p>
+        <p>Accessories</p>
+        <p>Support</p>
+        <svg width="27" height="30" viewBox="0 0 38 40" xmlns="http://www.w3.org/2000/svg"><path d="m28.6724 27.8633-5.07-5.07c-.0095-.0095-.0224-.0122-.032-.0213a7.9967 7.9967 0 1 0 -1.8711 1.7625c.0254.03.0357.0681.0642.0967l5.07 5.07a1.3 1.3 0 0 0 1.8389-1.8379zm-18.0035-10.0033a6.5447 6.5447 0 1 1 6.545 6.5449 6.5518 6.5518 0 0 1 -6.545-6.5449z" fill="rgba(255, 255, 255, 0.933)"></path></svg>
+        <svg class="store" height="44" viewBox="0 0 17 48" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m13.4575 16.9268h-1.1353a3.8394 3.8394 0 0 0 -7.6444 0h-1.1353a2.6032 2.6032 0 0 0 -2.6 2.6v8.9232a2.6032 2.6032 0 0 0 2.6 2.6h9.915a2.6032 2.6032 0 0 0 2.6-2.6v-8.9231a2.6032 2.6032 0 0 0 -2.6-2.6001zm-4.9575-2.2768a2.658 2.658 0 0 1 2.6221 2.2764h-5.2442a2.658 2.658 0 0 1 2.6221-2.2764zm6.3574 13.8a1.4014 1.4014 0 0 1 -1.4 1.4h-9.9149a1.4014 1.4014 0 0 1 -1.4-1.4v-8.9231a1.4014 1.4014 0 0 1 1.4-1.4h9.915a1.4014 1.4014 0 0 1 1.4 1.4z" fill="rgba(255, 255, 255, 0.933)"></path></svg>
+    </header>
+    <div id="banner1">
+        <h1>iPhone 15 Pro<br></h1>
+        <span>Titanium.So Strong.So lignt.So Pro.</span>
+        <div>
+            <p>Learn More</p>
+            <svg height="40" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+            <p id="buy">Buy</p>
+            <svg height="40" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+        </div>
+    </div>
+    <div id="banner2">
+        <h1>iPhone 15<br></h1>
+        <span>New camera.New design.Newphoria.</span>
+        <div>
+            <p>Learn More</p>
+            <svg height="40" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+            <p id="buy">Buy</p>
+            <svg height="40" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+        </div>
+    </div>
+    <div id="banner3">
+        <h1>MackBook Pro<br></h1>
+        <span>Mind-blowing.Head-turning.</span>
+        <h2 style="color: grey; font-size: 1.2rem;">Available starting 11.7</h2>
+        <div>
+            <p>Learn More</p>
+            <svg height="40" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+            <p id="buy">Order now</p>
+            <svg height="40" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+        </div>
+    </div>
+    <div id="banner4">
+      <div id="iMac">
+       <div id="product"> 
+          <h1>iMac</h1>
+          <p>Packed with more juice.</p>
+          <p>Available starting 11.7</p>
+          <p><a href="">Learn More</a>
+            <svg height="30" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+            &nbsp;&nbsp;&nbsp; <a href="">Order Now</a>
+             <svg height="30" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+            </p>
+       </div>
+      </div>
+      <div id="Watch">
+        <div id="product"> 
+            <img src="assets/www.apple.com/promo_logo_apple_watch_series_9__ckz0hbex0yeu_large.png" alt="iamge" style="justify-self: center; margin-bottom: .3rem;">
+            <p style="color: white;">Smarter.Brighter.Mightier.</p>
+            <p></p>
+            <p><a href="" style="color: #2997FF;">Learn More</a>
+              <svg height="30" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+              &nbsp;&nbsp;&nbsp; <a href="" style="color: #2997FF;">Buy</a>
+               <svg height="30" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+              </p>
+         </div>
+        </div>
+      </div>
+    </div>
+    <div id="banner5">
+        <div id="iPad">
+         <div id="product"> 
+            <h1>iPad</h1>
+            <p>Lovable.Drawable.Magical.</p>
+            <p></p>
+            <p><a href="">Learn More</a>
+              <svg height="30" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+              &nbsp;&nbsp;&nbsp; <a href="">Buy</a>
+               <svg height="30" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+              </p>
+         </div>
+        </div>
+        <div id="AirpodsPro">
+          <div id="product"> 
+            <h1 style="color: white;">AirPods Pro</h1>  
+            <p style="color: white;">Adaptive Audio.Now Playing.</p>
+              <p></p>
+              <p><a href="" style="color: #2997FF;">Learn More</a>
+                <svg height="30" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+                &nbsp;&nbsp;&nbsp; <a href="" style="color: #2997FF;">Buy</a>
+                 <svg height="30" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+                </p>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div id="banner6">
+        <div id="Card">
+         <div id="product"> 
+            <img src="assets/www.apple.com/logo__dcojfwkzna2q_medium.png" alt="iamge" style="justify-self: center; margin-bottom: .3rem; height: 2rem; width: 7rem;">
+            <p>Get up to 3% Cash back<br>with every purchase.</p>
+            <p></p>
+            <p><a href="">Learn More</a>
+              <svg height="30" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+              &nbsp;&nbsp;&nbsp; <a href="">Apply Now</a>
+               <svg height="30" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+              </p>
+         </div>
+        </div>
+        <div id="trade-in">
+          <div id="product"> 
+              <img src="assets/www.apple.com/logo_tradein__d1fpktgipvki_large.png" alt="iamge" style="justify-self: center; margin-bottom:.3rem; height: 2rem; width: 10rem;">
+              <p>Get $200-$650 credit when<br>you trade in iPhone 11 or higher.<sup style="font-size: .7rem;">1</sup></p>
+              <p></p>
+              <p><a href="" style="color: #2997FF;">See what your device is worth</a>
+                <svg height="30" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m7.4382 24.0621-6.5581-6.4238c-.2368-.2319-.2407-.6118-.0088-.8486.2324-.2373.6123-.2407.8486-.0088l7 6.8569c.1157.1138.1807.2695.1802.4316-.001.1621-.0674.3174-.1846.4297l-7 6.7242c-.1162.1118-.2661.1675-.4155.1675-.1577 0-.3149-.062-.4326-.1846-.2295-.2388-.2222-.6187.0171-.8481l6.5537-6.2959z" fill=" #0066cc" stroke-width="1"  stroke=" #0066cc"></path></svg>
+            </p>
+           </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div id="carousel" class="carousel">
+        <input type="radio" name="slider" id="s1" checked>
+        <input type="radio" name="slider" id="s2">
+        <input type="radio" name="slider" id="s3">
+        <input type="radio" name="slider" id="s4">
+        <input type="radio" name="slider" id="s5">
+      <label for="s1" id="slider1" class="carousel-item">
+        <div id="content">
+          <button>Preview now</button>
+          <ul><span style="font-weight: 600;">Crime</span>
+            <li>In theaters now</li>
+          </ul>
+        </div>
+      </label>
+      <label for="s2" id="slider2" class="carousel-item">
+        <div id="content">
+          <button>Preview now</button>
+          <ul><span style="font-weight: 600;">Crime</span>
+            <li>In theaters now</li>
+          </ul>
+        </div>
+      </label>
+      <label for="s3" id="slider3" class="carousel-item">
+        <div id="content">
+          <button>Preview now</button>
+          <ul><span style="font-weight: 600;">Crime</span>
+            <li>In theaters now</li>
+          </ul>
+        </div>
+      </label>
+      <label for="s4" id="slider4" class="carousel-item">
+        <div id="content">
+          <button>Preview now</button>
+          <ul><span style="font-weight: 600;">Crime</span>
+            <li>In theaters now</li>
+          </ul>
+        </div>
+      </label>
+      <label for="s5" id="slider5" class="carousel-item">
+        <div id="content">
+        <button>Preview now</button>
+        <ul><span style="font-weight: 600;">Crime</span>
+          <li>In theaters now</li>
+        </ul>
+      </div>
+      </label>
+      </div> -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div id="content" class="comein">
+              <button>Preview now</button>
+              <ul><span style="font-weight: 600;">Crime</span>
+                <li>In theaters now</li>
+              </ul>
+              </div>
+            <img id="image" src="assets/www.apple.com/1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <div id="content" class="comein">
+              <button>Preview now</button>
+              <ul><span style="font-weight: 600;">Crime</span>
+                <li>In theaters now</li>
+              </ul>
+              </div>
+            <img id="image" src="assets/www.apple.com/2.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <div id="content" class="comein">
+              <button>Preview now</button>
+              <ul><span style="font-weight: 600;">Crime</span>
+                <li>In theaters now</li>
+              </ul>
+              </div>
+            <img id="image" src="assets/www.apple.com/3.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <div id="content" class="comein">
+              <button>Preview now</button>
+              <ul><span style="font-weight: 600;">Crime</span>
+                <li>In theaters now</li>
+              </ul>
+              </div>
+            <img id="image" src="assets/www.apple.com/4.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <div id="content" class="comein">
+              <button>Preview now</button>
+              <ul><span style="font-weight: 600;">Crime</span>
+                <li>In theaters now</li>
+              </ul>
+              </div>
+            <img class="side-image" src="assets/www.apple.com/5.jpg" />
+          </div>
+        </div>
+        <div class="swiper-pagination" id="pagination"></div>
+      </div>
+    <footer>
+        <p>1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.<br><br>
+            To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.<br><br>
+            If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.<br><br>
+            Learn more about how Apple Card applications are evaluated at <a href="https://support.apple.com/en-us/102585" style="color: #535357;">support.apple.com/kb/HT209218.</a><br><br>
+            A subscription is required for Apple TV+.<br><br></p>
+            <p>More ways to shop: <a href="" style="color: #3283D5; font-weight: 400;">Find an Apple Store</a> or <a href="" style="color: #3283D5; font-weight: 400;">other retailer</a> near you. Or call 1-800-MY-APPLE.</p>
+            <div style="border: 1px solid rgba(128, 128, 128, 0.338); margin-top: .5rem;"></div>
+            <div style="display: flex; margin-top: .5rem; margin-bottom: -1.3rem;">
+                <p>Copyright © 2023 Apple Inc. All rights reserved</p>
+                <div id="navfot" style="margin-left: -36rem; display: flex; column-gap: 1rem;">
+                <a href="">Privacy Policy &nbsp; |</a>
+                <a href="">Terms of Use &nbsp; |</a>
+                <a href="">Sales and Refunds &nbsp; |</a>
+                <a href="">Legal &nbsp; |</a>
+                <a href="">Site Map</a>
+                <a href="" style="margin-left: 3.6rem;">United States</a>
+                </div>
+                </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        speed: 1000,
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 0,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        loop:true,
+        autoplay:{
+          delay:1300,
+          disableOnInteraction:true
+        },
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+        on:{
+          slideChange: function(){
+            var allButtons = document.querySelectorAll("#content");
+      allButtons.forEach(function (button) {
+        button.style.display = "none";
+      });
+      var activeSlide = this.slides[this.activeIndex];
+      var activeButton = activeSlide.querySelector("#content");
+      var image = activeSlide.querySelector('#image')
+      if (activeButton) {
+        activeButton.style.display = "flex";
+          }
+        }
+      }
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
