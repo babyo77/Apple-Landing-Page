@@ -37,8 +37,23 @@ document.querySelector("#div").addEventListener('mouseover',()=>{
 
 window.addEventListener("resize", ()=>{
     if(window.innerWidth <=700) {
-        document.body.style.display="none"
+        let div = document.createElement('p')
+        div.id = 'custom'
+        div.innerHTML = "View Full on Desktop"
+        div.style.color = "black"
+        document.body.append(div)
     }else{
         document.body.style.display="block"
     }
 })
+
+
+if(window.innerWidth <=700) {
+    let div = document.createElement('p')
+    div.innerHTML = "View Full on Desktop"
+    div.id = 'custom'
+    div.style.color = "black"
+    document.body.append(div)
+}else{
+    document.body.style.display="block"
+}

@@ -402,3 +402,93 @@ ul{
     display: flex;
     column-gap: 1.7rem;
 }
+
+header div{
+    display: flex; 
+    column-gap: 2.1rem;
+}
+
+#menus{
+    display: none;
+}
+
+#mainMenu{
+    display: flex; align-items: center;
+}
+
+#cm{
+    display: grid; position: relative; row-gap: 1.7rem; left: -24.3%; top: -13%;
+}
+
+#custom{
+ text-align: center;
+ margin-top: 6rem;
+ font-size: 1.7rem;
+ font-weight: 600;
+ animation: blink 1s infinite alternate-reverse;
+}
+
+@keyframes blink {
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+@media(max-width:600px){
+
+    #banner4,
+#banner5,
+#banner6{
+    flex-wrap: wrap;
+}
+
+.menu{
+  display: none;
+}
+
+#menus{
+    display: block;
+    justify-self: end;
+}
+
+#mainMenu{
+    column-gap: 1rem;
+    margin-right: 1rem;
+}
+#g{
+    margin-left: .7rem;
+    height: 3rem;
+}
+
+header{
+    justify-content: space-between;
+}
+#cm{
+    left:-10%;
+ }
+
+ #banner1{
+  height: 35rem;
+ }
+#banner1 h1{
+    font-size: 1.7rem;
+}
+
+#banner1 span{
+    font-size: 1rem;
+    margin-top: -9rem;
+}
+
+#banner1 #div{
+margin-top: -40rem;
+}
+
+#banner1 p{
+    font-size: .9rem;
+}
+
+#hide{
+    display: none;
+}
+
+}
