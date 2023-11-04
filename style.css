@@ -369,6 +369,9 @@ footer p {
     }
 }
 
+#store{
+    z-index: 2; overflow: hidden; display: none; background: #ffffff7d; backdrop-filter: blur(10px); height: 100vh; width: 100vw; position: fixed;
+}
 
 .fade {
     opacity: 0; 
@@ -437,11 +440,19 @@ left: 30%;
     }
 }
 
+#s{
+    z-index: 4; background-color: #111112; height: 20rem; width: 100vw; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center;
+}
+
 @media(max-width:600px){
     #banner4,
 #banner5,
 #banner6{
     flex-wrap: wrap;
+}
+
+#s{
+    height: 100vh;
 }
 
 .menu{
@@ -466,7 +477,8 @@ header{
     justify-content: space-between;
 }
 #cm{
-    left:-10%;
+    top: -37%;
+    left:-14%;
  }
 
  #banner1{
