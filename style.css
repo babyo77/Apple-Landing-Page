@@ -421,9 +421,12 @@ header div{
 }
 
 #custom{
- text-align: center;
- margin-top: 6rem;
- font-size: 1.7rem;
+width: 13rem;
+display: flex;
+top: 2.3rem;
+left: 30%;
+ position: relative;
+ font-size: 1rem;
  font-weight: 600;
  animation: blink 1s infinite alternate-reverse;
 }
@@ -435,7 +438,9 @@ header div{
 }
 
 @media(max-width:600px){
-
+*{
+    text-align: center;
+}
     #banner4,
 #banner5,
 #banner6{

@@ -35,25 +35,12 @@ document.querySelector("#div").addEventListener('mouseover',()=>{
     active= true
 })
 
-window.addEventListener("resize", ()=>{
-    if(window.innerWidth <=700) {
-        let div = document.createElement('p')
-        div.id = 'custom'
-        div.innerHTML = "View Full on Desktop"
-        div.style.color = "black"
-        document.body.append(div)
-    }else{
-        document.body.style.display="block"
-    }
-})
-
-
 if(window.innerWidth <=700) {
     let div = document.createElement('p')
     div.innerHTML = "View Full on Desktop"
     div.id = 'custom'
     div.style.color = "black"
-    document.body.append(div)
+    document.body.appendChild(div)
 }else{
     document.body.style.display="block"
 }
