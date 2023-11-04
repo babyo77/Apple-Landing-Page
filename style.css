@@ -17,10 +17,9 @@ header {
     align-items: center;
     position: fixed;
     width: 100vw;
-    flex: 1;
     height: 2.2rem;
     column-gap: 2.1rem;
-    font-size: .76rem;
+    font-size: .76vw;
     font-weight: 300;
 }
 
@@ -257,9 +256,9 @@ footer p {
 }
 
 #AirpodsPro {
-    background-image: url("assets/www.apple.com/promo_airpods_pro_order__d8xv36p4uwae_small_2x.jpg");
+    background-image: url("assets/www.apple.com/promo_airpods_pro_order__d8xv36p4uwae_medium.jpg");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     height: 38rem;
     width: 46.8rem;
 }
@@ -410,7 +409,6 @@ ul{
 header div{
     display: flex; 
     column-gap: 2.1rem;
-    justify-content: space-evenly;
 }
 
 #menus{
@@ -446,7 +444,7 @@ left: 34%;
     z-index: 4; background-color: #111112; height: 20rem; width: 100vw; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center;
 }
 
-@media(max-width:1100px){
+@media(max-width:600px){
 
     #banner1{
         background-image: url(assets/www.apple.com/hero_iphone15pro__i70z9oz3hj2i_small_2x.jpg);
